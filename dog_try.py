@@ -2,10 +2,9 @@ import cv2, dlib, os
 import numpy as np
 from imutils import face_utils
 from numpy.lib import index_tricks, shape_base
-import matplotlib as plt
 from urllib.parse import quote
 import base64
-import sys
+
 
 
 def extract_index_array(nparray):
